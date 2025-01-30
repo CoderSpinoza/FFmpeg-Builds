@@ -4,7 +4,7 @@ SCRIPT_REPO="https://github.com/tukaani-project/xz.git"
 SCRIPT_COMMIT="ea21c76aa2406ba06ac154fe57741734c04f260f"
 
 ffbuild_enabled() {
-    return 0
+    return -1 # disable lzma
 }
 
 ffbuild_dockerbuild() {

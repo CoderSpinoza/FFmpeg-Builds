@@ -4,7 +4,7 @@ SCRIPT_REPO="https://gitlab.com/libssh/libssh-mirror.git"
 SCRIPT_COMMIT="49b0c859f92bb9474412933e450da26d0410fe08"
 
 ffbuild_enabled() {
-    return 0
+    return -1 # disable libssh
 }
 
 ffbuild_dockerbuild() {

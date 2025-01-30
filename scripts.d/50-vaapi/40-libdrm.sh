@@ -5,7 +5,7 @@ SCRIPT_COMMIT="e7d4b1df2d3f675b478897ab454d635e9b4eb915"
 
 ffbuild_enabled() {
     [[ $TARGET != linux* ]] && return -1
-    return 0
+    return -1 # disable libdrm
 }
 
 ffbuild_dockerbuild() {

@@ -5,7 +5,7 @@ SCRIPT_COMMIT="690d259384193c90c01b52288e280b05a8481121"
 
 ffbuild_enabled() {
     [[ $ADDINS_STR == *4.4* ]] && return -1
-    return 0
+    return -1 # disable shaderc
 }
 
 ffbuild_dockerdl() {

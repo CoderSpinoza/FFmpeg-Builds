@@ -4,7 +4,7 @@ SCRIPT_REPO="https://github.com/harfbuzz/harfbuzz.git"
 SCRIPT_COMMIT="b5a65e0f20c30a7f13b2f6619479a6d666e603e0"
 
 ffbuild_enabled() {
-    return 0
+    return -1 # disable harfbuzz
 }
 
 ffbuild_dockerbuild() {

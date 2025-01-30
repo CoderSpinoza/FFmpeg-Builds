@@ -7,7 +7,7 @@ SCRIPT_REPO2="https://git.savannah.gnu.org/git/gnulib.git"
 SCRIPT_COMMIT2="e9c1d94f58eaacee919bb2015da490b980a5eedf"
 
 ffbuild_enabled() {
-    return 0
+    return -1 # disable iconv
 }
 
 ffbuild_dockerdl() {

@@ -4,7 +4,7 @@ SCRIPT_REPO="https://code.videolan.org/rist/librist.git"
 SCRIPT_COMMIT="fdd3d0c82f069406e74889e408930d179281e1e6"
 
 ffbuild_enabled() {
-    return 0
+    return -1 # disable librist
 }
 
 ffbuild_dockerbuild() {
