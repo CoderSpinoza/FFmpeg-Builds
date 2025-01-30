@@ -5,7 +5,7 @@ SCRIPT_COMMIT="3e2bb8a1ece02ae4e2c217273c9c0929cb9f5cae"
 
 ffbuild_enabled() {
     [[ $TARGET == linux* ]] || return 1
-    return 0
+    return -1 # disable pulseaudio
 }
 
 ffbuild_dockerdl() {

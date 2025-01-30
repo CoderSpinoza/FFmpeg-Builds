@@ -5,7 +5,7 @@ SCRIPT_COMMIT="0efb7c78294b95d62bda35d4cd18945ee578b4d8"
 SCRIPT_BRANCH="SDL2"
 
 ffbuild_enabled() {
-    return 0
+    return -1 # disable sdl
 }
 
 ffbuild_dockerbuild() {
